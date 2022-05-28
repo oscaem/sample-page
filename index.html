@@ -2,54 +2,88 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="icon" type="image/png" href="imgs/icon.png"/>
-        <title>tellem.eth</title>
-        <script src="https://kit.fontawesome.com/d906219467.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+            <link rel="icon" type="image/png" href="imgs/icon.png""/>
+            <title>tellem.eth</title>
+            <!--<script src="https://kit.fontawesome.com/d906219467.js" crossorigin="anonymous"></script>
+            Dont need that shit-->
     </head>
     <body>
-            <h1>My Site</h1>
-                <nav>
-                    <a href="/work/">Work</a>
-                    <a href="/work/">Contributions</a>
-                    <a href="/work/">Socials</a>
-                </nav>
-                <figure>
-                    <img src="imgs/logo.png" 
-                    width="10%" alt="tellem.eth Logo">
-                    <figcaption>Check out my website.</figcaption>
+        <header>
+            <div class="headwrapper">
+                <figure class="logo">
+                    <img src="imgs/logo.png" alt="tellem.eth Logo">
                 </figure>
-                <main>
-                    <p>Hello there. I am Bo. Developer. Artist. Builder.</p>
-                    <i class="fa-solid fa-dragon"></i>
-                    <a href="https://twitter.com/tellemxyz"><img src="imgs/socials/twitter_social.png" width="2%" alt="Twitter Social Logo"></a>
-                    <a href="https://github.com/oscaem"><img src="imgs/socials/github_social.png" width="2%" alt="GitHub Social Logo"></a>
-                </main>
-            <h2>List</h2>
-            <ul>
-                <li>One</li>
-                <li>Two</li>
-                <li>Three</li>
-            </ul>
-            <h2>Video</h2>
-                <video src="media/video_1.mp4" width="25%" controls>
-                Your browser does not support this <code>video</code> element
-                </video>
-            <h2>Audio</h2>
-                <audio src="media/track_1.mp3" controls>My Track</audio>
-            <h2>My Table</h2>
-                <table border="1">
-                    <tr>
-                        <th>Cell 1</th><th>Cell 2</th><th>Cell 3</th></tr>
-                    <tr>
-                        <td rowspan="2">Unfunny</td><td>Hi</td><td>I</td></tr>
-                    <tr>
-                        <td>Am</td><td>A</td></tr>
-                    <tr>
-                        <td>Funny</td><td>Cringe</td><td>Table</td></tr>
-                </table>
-            <h2>Some Stuff</h2>
-            <button>Next Page</button>
-            <footer><br>Copywright: 2022</footer>
+                <nav class="menubar">
+                    <a href="#">Work</a>
+                    <a href="#">About</a>
+                    <a href="#">Contributions</a>
+                    <button><a href="#">Contact</a></button>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="hero content">
+                <h1>My Site</h1>
+                    <p>Hello there. I am Oscar. Developer. Artist. Builder.</p>
+                    <!--<i class="fa-solid fa-dragon"></i>
+                    Dont need that shit-->
+                    <nav class="socials">
+                        <a href="https://twitter.com/tellemxyz"><img src="imgs/socials/socials-twitter-90.png" width="2%" alt="Twitter Social Link"></a>
+                        <a href="https://github.com/oscaem"><img src="imgs/socials/socials-github-90.png" width="2%" alt="GitHub Social Link"></a>
+                        <a href="https://linkedin.com"><img src="imgs/socials/socials-linkedin-90.png" width="2%" alt="Linkedin Social Link"></a>    
+                    </nav>
+            </div>
+            <div>
+                <section class ="prominent">
+                    <h2>Chats</h2>
+                    <ol>
+                        <li>Hello Boys</li>
+                        <li>Thats so Funny</li>
+                        <li>Seems like it</li>
+                    </ol>
+                </section>
+                <section class ="prominent" id="vid">
+                    <h2>Video</h2>
+                        <video src="media/video_1.mp4" width="220px"controls>
+                        Your browser does not support this <code>video</code> element
+                        </video>  
+                </section>
+            </div>
+            <div>
+                <section class ="obscure">
+                    <h2>Audio</h2>
+                        <audio src="media/track_1.mp3" controls>My Track</audio>
+                </section>
+                <section class ="obscure">
+                    <h2>My Table</h2>
+                        <table border="1">
+                            <tr>
+                                <th>Cell 1</th><th>Cell 2</th><th>Cell 3</th></tr>
+                            <tr>
+                                <td rowspan="2">Unfunny</td><td>Hi</td><td>I</td></tr>
+                            <tr>
+                                <td>Am</td><td>A</td></tr>
+                            <tr>
+                                <td>Funny</td><td>Cringe</td><td>Table</td></tr>
+                        </table>
+                </section>
+                <section class ="obscure">
+                    <h2>Some Stuff</h2>
+                        <button>Next Page</button>
+                        <button>Previous Page</button>
+                        <button>Previous Page</button>
+                </section>
+            </div>
+        </main>
+        <footer>
+                <br>
+                <a href="">Copywright@tellemxyz</a>
+                <a href="">ServiceTerms</a>
+                <a href="">Disclaimer</a>
+                <br>
+                <p>All rights reserved. Learn <a href="">more</a>.</p>
+        </footer>
     </body>
 </html>
 
